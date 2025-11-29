@@ -83,21 +83,15 @@ h2 {
 }
 .btn-download:hover { opacity: 0.9; }
 
-/* --- IMPROVED DROPDOWN MENU STYLING --- */
+/* --- DROPDOWN MENU STYLING --- */
 
-/* The Container */
+/* The Container - positions the menu relative to this box */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* --- ROBUST DROPDOWN MENU FIX --- */
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
+/* The Button - matches your other nav links */
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -106,46 +100,47 @@ h2 {
     border: none;
     cursor: pointer;
     font-family: inherit;
-    font-weight: inherit; /* Matches your other links */
+    font-weight: inherit; 
 }
 
-/* 1. Show menu on HOVER */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* 2. Show menu on CLICK (Focus) - Good for mobile */
-.dropdown:focus-within .dropdown-content {
-    display: block;
-}
-
-/* The Dropdown Box */
+/* The Dropdown Box (Hidden by default) */
 .dropdown-content {
-    display: none; /* Hidden by default */
+    display: none; 
     position: absolute;
-    background-color: #333;
+    background-color: #333; /* Dark background to match nav */
     min-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
-    z-index: 9999; /* Forces it to sit on top of everything! */
-    top: 100%;
+    z-index: 9999; /* Sit on top of everything */
+    top: 100%; /* Position directly below the button */
     left: 0;
     border-radius: 4px;
 }
 
+/* Links inside the dropdown */
 .dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #444; /* faint separator line */
 }
 
+/* Hover effects */
 .dropdown-content a:hover {
     background-color: var(--primary-color);
     color: black;
 }
 
+/* THE TRIGGER: Show menu when hovering the container */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Click support for mobile/tablet */
+.dropdown:focus-within .dropdown-content {
+    display: block;
+}
 /* PROFILE PHOTO STYLING */
 .profile-photo {
     width: 200px;
