@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Susmita Ghosh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="profile-container">
+            <h1>Susmita Ghosh</h1>
+            <p class="title">Ph.D. Candidate</p>
+            
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="research.html" class="nav-link active">Research</a>
+                <a href="teaching.html" class="nav-link">Teaching</a>
+                <a href="cv.html" class="nav-link">CV</a>
+            </nav>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <section id="dynamic-content">
+            <h1>Research Experience</h1>
+            <div id="markdown-content">Loading research...</div>
+        </section>
+    </main>
+
+    <script>
+        fetch('research.md')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById('markdown-content').innerHTML = marked.parse(text);
+            });
+    </script>
+</body>
+</html>
