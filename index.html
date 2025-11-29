@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susmita Ghosh | Nutrition Science Researcher</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="profile-container">
+            <h1>Susmita Ghosh</h1>
+            <p class="title">Ph.D. Candidate<br>Nutrition Science</p>
+            <p class="university">Purdue University</p>
+            
+            <div class="contact-links">
+                <a href="mailto:ghosh81@purdue.edu"><i class="fas fa-envelope"></i> Email Me</a>
+                <a href="#"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="skills-section">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>STATA, SAS, R, IBM SPSS</li>
+                <li>GIS Software (Outcome Mapping)</li>
+                <li>Dietary Assessment (24h recall, FFQ)</li>
+                <li>Microbiology (Inoculation, Staining)</li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        
+        <section id="about">
+            <h2>Research Focus</h2>
+            <p>
+                Drivers of caregiving behaviors and interventions to improve child nutrition 
+                and development in low-resource settings. My work combines data analysis, 
+                capacity building, and field interventions.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="timeline-item">
+                <h3>Ph.D. Candidate, Nutrition Science</h3>
+                <span class="date">Jan 2021 – Present</span>
+                <p>Purdue University, West Lafayette, IN</p>
+                <p><em>Mentor: Dr. Nilupa S. Gunaratna</em></p>
+            </div>
+            <div class="timeline-item">
+                <h3>M.S., Nutrition and Food Science</h3>
+                <span class="date">2016</span>
+                <p>University of Dhaka, Bangladesh</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Research Experience</h2>
+            
+            <div class="job">
+                <h3>Graduate Research Assistant</h3>
+                <span class="date">Oct 2024 – Present</span>
+                <p><strong>Purdue University</strong> | Dept of Nutrition Science</p>
+                <p>Project: Development of External Food Environment Surveillance Systems of Vendors in Kenya. Utilized SAS, STATA, and GIS software.</p>
+            </div>
+
+            <div class="job">
+                <h3>Graduate Research Assistant</h3>
+                <span class="date">Jun 2021 – Sept 2024</span>
+                <p><strong>Purdue University</strong> | Interdepartmental Nutrition Program</p>
+                <p>Project: Applied Nutrition Research Capacity Building (ANRCB) / LANI project. Responsibilities included preparing training modules, mentoring research groups, and conducting workshops.</p>
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2>Selected Publications</h2>
+            <div id="markdown-content">Loading publications...</div>
+        </section>
+
+    </main>
+
+    <script>
+        // This function fetches your 'publications.md' file
+        fetch('publications.md')
+            .then(response => response.text()) // Get the text
+            .then(text => {
+                // Convert the markdown text to HTML using the 'marked' library
+                document.getElementById('markdown-content').innerHTML = marked.parse(text);
+            })
+            .catch(error => {
+                document.getElementById('markdown-content').innerHTML = 'Error loading publications.';
+            });
+    </script>
+
+</body>
+</html>
