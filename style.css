@@ -142,18 +142,22 @@ h2 {
 
 /* PROFILE PHOTO STYLING */
 .profile-photo {
-    width: 200px;            /* Size of the photo */
-    height: 200px;           /* Height matches width for a square/circle */
-    border-radius: 50%;      /* Makes it a perfect circle */
-    object-fit: cover;       /* Ensures the photo doesn't stretch/distort */
-    float: right;            /* Pushes it to the right side */
-    margin-left: 20px;       /* Adds space between text and photo */
+    width: 200px;             /* Fixed width */
+    height: 200px;            /* Fixed height (must match width) */
+    border-radius: 50%;       /* Creates the perfect circle */
+    
+    /* THE MAGIC FIX: */
+    object-fit: cover;        /* Zooms in to fill the circle (doesn't stretch) */
+    object-position: top center; /* Focuses on the top (the face) instead of the center */
+    
+    float: right;             
+    margin-left: 20px;
     margin-bottom: 10px;
-    border: 4px solid var(--primary-color); /* Optional: Adds a gold border */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Optional: Adds a subtle shadow */
+    border: 4px solid var(--primary-color);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Mobile Fix: Center the photo on small screens */
+/* Mobile Fix */
 @media (max-width: 600px) {
     .profile-photo {
         float: none;
@@ -161,12 +165,3 @@ h2 {
         margin: 0 auto 20px auto;
     }
 }
-
-/* Show the menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Markdown Styling */
-#markdown-content ul { padding-left: 20px; }
-#markdown-content li { margin-bottom: 15px; }
