@@ -83,6 +83,68 @@ h2 {
 }
 .btn-download:hover { opacity: 0.9; }
 
+/* --- IMPROVED DROPDOWN MENU STYLING --- */
+
+/* The Container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* The "Publications" Button Style */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 8px 16px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    font-family: inherit; /* Matches your other fonts */
+    transition: background 0.3s;
+    border-radius: 4px;
+}
+
+/* Hover effect for the main button */
+.dropdown:hover .dropbtn, .dropbtn:hover {
+    background-color: var(--primary-color);
+    color: #000;
+}
+
+/* The Dropdown Content (Hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333; /* Dark Grey background */
+    min-width: 220px;       /* Slightly wider for longer text */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    z-index: 1000;          /* Ensures it sits on top of everything */
+    top: 100%;              /* Positions it directly below */
+    left: 0;
+    border-radius: 0 0 4px 4px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 0.95rem;
+    border-top: 1px solid #444; /* Separator line between items */
+}
+
+/* Hover effect for dropdown items */
+.dropdown-content a:hover {
+    background-color: var(--primary-color);
+    color: black;
+}
+
+/* Show the menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /* Markdown Styling */
 #markdown-content ul { padding-left: 20px; }
 #markdown-content li { margin-bottom: 15px; }
