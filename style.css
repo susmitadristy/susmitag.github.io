@@ -91,7 +91,13 @@ h2 {
     display: inline-block;
 }
 
-/* The "Publications" Button Style */
+/* --- ROBUST DROPDOWN MENU FIX --- */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -99,42 +105,42 @@ h2 {
     font-size: 1.1rem;
     border: none;
     cursor: pointer;
-    font-family: inherit; /* Matches your other fonts */
-    transition: background 0.3s;
+    font-family: inherit;
+    font-weight: inherit; /* Matches your other links */
+}
+
+/* 1. Show menu on HOVER */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 2. Show menu on CLICK (Focus) - Good for mobile */
+.dropdown:focus-within .dropdown-content {
+    display: block;
+}
+
+/* The Dropdown Box */
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #333;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 9999; /* Forces it to sit on top of everything! */
+    top: 100%;
+    left: 0;
     border-radius: 4px;
 }
 
-/* Hover effect for the main button */
-.dropdown:hover .dropbtn, .dropbtn:hover {
-    background-color: var(--primary-color);
-    color: #000;
-}
-
-/* The Dropdown Content (Hidden by default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #333; /* Dark Grey background */
-    min-width: 220px;       /* Slightly wider for longer text */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
-    z-index: 1000;          /* Ensures it sits on top of everything */
-    top: 100%;              /* Positions it directly below */
-    left: 0;
-    border-radius: 0 0 4px 4px;
-}
-
-/* Links inside the dropdown */
 .dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    font-size: 0.95rem;
-    border-top: 1px solid #444; /* Separator line between items */
+    border-bottom: 1px solid #444;
 }
 
-/* Hover effect for dropdown items */
 .dropdown-content a:hover {
     background-color: var(--primary-color);
     color: black;
