@@ -1,6 +1,6 @@
 ## Peer-Reviewed Publications
 
-* **Shively, G., Ambikapathi, R., Eddens, K., Ghosh, S., et al. (2024).** Demand-driven capacity building for public health nutrition research in Lao PDR. *Global Health Research and Policy*, 9(1), 36.
+* **Shively, G., Ambikapathi, R., Eddens, K., Ghosh, S., et al. (2024).** [Demand-driven capacity building for public health nutrition research in Lao PDR. *Global Health Research and Policy*, 9(1), 36.](https://link.springer.com/article/10.1186/s41256-024-00378-7)
 * **O'Malley, S. F., Ambikapathi, R., Ghosh, S., et al. (2024).** Contribution of Food from Market Purchases and Home Production to Child Nutrient Intake. *The Journal of Nutrition*, 154(6), 1907-1916.
 * **Kundu, S., Kundu, S., Seidu, A. A., Okyere, J., Ghosh, S., et al. (2023).** Factors influencing and changes in childhood vaccination coverage over time in Bangladesh. *BMC Public Health*, 23(1), 1-13.
 * **Kundu, S., Rejwana, N., Al Banna, M.H., Kawuki, J., Ghosh, S., et al. (2022).** Linking Depressive and Anxiety Symptoms with Diet Quality of University Students. *Healthcare*, 10, 1848.
