@@ -1,6 +1,7 @@
 ## Alumni
 
-### Graduate: Mentored 6 students for their MS thesis
+### MS thesis students supervised
+
 (1) **Smaranima Ghosh Jui** (2019-20)\
 Current Position: Assistant Professor\
 Noakhali Science and Technology University, Bangladesh
