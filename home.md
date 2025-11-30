@@ -1,6 +1,6 @@
 ![Susmita Ghosh](profile.jpg)
 
-## About Me
+### About Me
 
 I am a Ph.D. Candidate in the Interdepartmental Nutrition Program at Purdue University. My research focuses on the **drivers of caregiving behaviors** and interventions to improve child nutrition and development in low-resource settings. I work under the mentorship of Prof. [Nilupa S Gunaratna](https://hhs.purdue.edu/directory/nilupa-gunaratna/).
 
