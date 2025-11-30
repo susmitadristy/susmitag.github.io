@@ -13,6 +13,7 @@ body {
     padding: 0;
     color: var(--text-dark);
     line-height: 1.6;
+    background-color: #f9f9f9; /* <--- ADD THIS LINE */
 }
 
 /* HEADER & NAVIGATION */
@@ -210,4 +211,14 @@ h2 {
     font-weight: normal;     /* Not bold */
     font-size: 0.95rem;      /* Slightly smaller */
     text-align: right;       /* Ensures right alignment on mobile */
+}
+
+/* CARDS FOR SECTIONS */
+.card {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border: 1px solid #eee;
 }
