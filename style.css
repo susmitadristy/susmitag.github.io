@@ -29,6 +29,7 @@ header h1 {
 }
 
 header .subtitle {
+    display: none;
     color: #ccc;
     margin: 5px 0 20px 0;
     font-weight: 300;
