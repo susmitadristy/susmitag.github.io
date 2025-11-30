@@ -6,9 +6,11 @@ I am a Ph.D. Candidate in the Interdepartmental Nutrition Program at Purdue Univ
 
 Prior to Purdue, I served as an [Assistant Professor](https://www.nstu.edu.bd/faculty-member.php?faculty=susmita-ghosh-ega249) _(currently on sabbatical)_ at Noakhali Science and Technology University (NSTU) in Bangladesh.
 
-**Contact:**
-[ghosh81@purdue.edu](mailto:ghosh81@purdue.edu) | [susmita.ftns@nstu.edu.bd](susmita.ftns@nstu.edu.bd)
-[Google Scholar](https://scholar.google.com/citations?user=ceZ46vgAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/susmitaghosh21/)
+**Contact:**\
+[ghosh81@purdue.edu](mailto:ghosh81@purdue.edu)\
+[susmita.ftns@nstu.edu.bd](susmita.ftns@nstu.edu.bd)\
+[Google Scholar](https://scholar.google.com/citations?user=ceZ46vgAAAAJ&hl=en)\
+[LinkedIn](https://www.linkedin.com/in/susmitaghosh21/)
 
 ## Education
 
