@@ -1,4 +1,4 @@
-### Please visit my [Google Scholar]([url](https://scholar.google.com/citations?user=ceZ46vgAAAAJ&hl=en)) for the updated list of publications.
+Please visit my [Google Scholar](https://scholar.google.com/citations?user=ceZ46vgAAAAJ&hl=en) for the updated list of publications.
 
 ## Publications
 
