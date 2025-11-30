@@ -24,11 +24,3 @@ Sonapur Road, Noakhali 3814, Bangladesh\
 
 [Google Scholar](https://scholar.google.com/citations?user=ceZ46vgAAAAJ&hl=en)\
 [LinkedIn](https://www.linkedin.com/in/susmitaghosh21/)
-
-## Education
-
-**Ph.D. Candidate, Nutrition Science** (Jan 2021 – Present)
-Purdue University
-
-**M.S., Nutrition and Food Science** (2016)
-University of Dhaka, Bangladesh
