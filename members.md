@@ -3,7 +3,7 @@
 ### M.S. thesis students supervised
 
 (1) **Smaranima Ghosh Jui** (2019-20)\
-Current Position: Assistant Professor\
+Current Position: [Assistant Professor](https://www.nstu.edu.bd/faculty-member.php?faculty=smarnima-ghosh-jui-37b381)\
 Noakhali Science and Technology University, Bangladesh
 
 (2) **Sabrina Mamtaz** (2019-20)
