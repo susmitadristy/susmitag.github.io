@@ -3,13 +3,13 @@
 MCAP Summer Institute\
 Purdue University
 * Longitudinal Data Analysis Workshop for graduate students and professionals
-* Assisted with R and STATA coding, pedagogy, and student projects\
+* Assisted with R and STATA coding, pedagogy, and student projects
 
 See [Prof. Trenton Mize's website](https://www.trentonmize.com/teaching/mcapsi) for more details about the course, course materials etc.
 
 ---
 
-***Assistant Professor***\
+***Assistant Professor*** (2019-2021)\
 Department of Food Technology and Nutrition Science\
 Noakhali Science and Technology University (Bangladesh)
 
