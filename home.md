@@ -8,7 +8,8 @@ Prior to Purdue, I served as an [Assistant Professor](https://www.nstu.edu.bd/fa
 
 **Contact:**
 
-[ghosh81@purdue.edu](mailto:ghosh81@purdue.edu) | [Google Scholar](https://scholar.google.com/citations?user=ceZ46vgAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/susmitaghosh21/)
+[ghosh81@purdue.edu](mailto:ghosh81@purdue.edu) | [susmita.ftns@nstu.edu.bd](susmita.ftns@nstu.edu.bd)\
+[Google Scholar](https://scholar.google.com/citations?user=ceZ46vgAAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/susmitaghosh21/)
 
 ## Education
 
