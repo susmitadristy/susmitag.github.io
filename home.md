@@ -19,7 +19,7 @@ West Lafayette, IN\
 Department of Food Technology and Nutrition Science\
 Noakhali Science and Technology University (NSTU)\
 Sonapur Road, Noakhali 3814, Bangladesh\
-[susmita.ftns@nstu.edu.bd](susmita.ftns@nstu.edu.bd)
+[susmita.ftns@nstu.edu.bd](susmita.ftns@nstu.edu.bd)\
 [NSTU Faculty Profile](https://www.nstu.edu.bd/faculty-member.php?faculty=susmita-ghosh-ega249)
 
 
