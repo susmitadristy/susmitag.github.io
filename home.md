@@ -12,13 +12,15 @@ Prior to Purdue, I served as an [Assistant Professor](https://www.nstu.edu.bd/fa
 Department of Nutrition Science\
 Purdue University\
 West Lafayette, IN\
-[ghosh81@purdue.edu](mailto:ghosh81@purdue.edu)
+[ghosh81@purdue.edu](mailto:ghosh81@purdue.edu)\
+[HHS webpage](https://hhs.purdue.edu/directory/susmita-ghosh/)
 
 ***Assistant Professor*** *(on sabbatical)*\
 Department of Food Technology and Nutrition Science\
 Noakhali Science and Technology University (NSTU)\
 Sonapur Road, Noakhali 3814, Bangladesh\
 [susmita.ftns@nstu.edu.bd](susmita.ftns@nstu.edu.bd)
+[NSTU Faculty Profile](https://www.nstu.edu.bd/faculty-member.php?faculty=susmita-ghosh-ega249)
 
 
 
