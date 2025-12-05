@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alumni & Members | Susmita Ghosh</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -32,16 +31,40 @@
     </header>
 
     <div class="container">
-        <div id="markdown-content">Loading members...</div>
-    </div>
+        <div id="markdown-content">
+            
+            <h2>Alumni</h2>
 
-    <script>
-        fetch('members.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('markdown-content').innerHTML = marked.parse(text);
-            });
-    </script>
+            <h3>M.S. thesis students supervised</h3>
+
+            <p>
+                (1) <strong>Smaranima Ghosh Jui</strong> (2019-20)<br>
+                Current Position: <a href="https://www.nstu.edu.bd/faculty-member.php?faculty=smarnima-ghosh-jui-37b381">Assistant Professor</a><br>
+                Noakhali Science and Technology University, Bangladesh
+            </p>
+
+            <p>(2) <strong>Sabrina Mamtaz</strong> (2019-20)</p>
+
+            <p>(3) <strong>Sudipta Das</strong> (2019-20)</p>
+
+            <p>(4) <strong>Faria Sharmin</strong> (2018-19)</p>
+
+            <p>
+                (5) <strong>Tahmina Akhter</strong> (2018-19)<br>
+                Current Position: Practicing Dietitian, Chittagong, Bangladesh
+            </p>
+
+            <p>
+                (6) <strong>Anamul Haque</strong> (2018-19)<br>
+                Current Position: Nutrition site supervisor, Concern Worldwide, Bangladesh
+            </p>
+
+            <h3>Undergraduate thesis supervised</h3>
+
+            <p>16 U.G. students supervised <em>(names coming soon)</em></p>
+
+        </div>
+    </div>
 
 </body>
 </html>
