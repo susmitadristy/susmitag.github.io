@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Susmita Ghosh | Nutrition Science</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <meta name="google-site-verification" content="QRBktOb8Z5L57FRMFYLBEFT62D-fwZzxwrPBPsv73GI" />
 </head>
@@ -27,21 +26,48 @@
             </div>
 
             <a href="teaching.html">Teaching</a>
-            <a href="members.html">Members</a> <a href="cv.html">CV</a>
+            <a href="members.html">Members</a> 
+            <a href="cv.html">CV</a>
         </nav>
     </header>
 
     <main class="container">
-        <div id="markdown-content" class="card">Loading profile...</div>
-    </main>
+        <div id="markdown-content" class="card">
+            
+            <img src="profile.jpg" alt="Susmita Ghosh">
 
-    <script>
-        fetch('home.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('markdown-content').innerHTML = marked.parse(text);
-            });
-    </script>
+            <h2>About Me</h2>
+            <p>I am a Ph.D. Candidate in the Interdepartmental Nutrition Program at Purdue University. My research focuses on the <strong>drivers of caregiving behaviors</strong> and interventions to improve child nutrition and development in low-resource settings. I work under the mentorship of Prof. <a href="https://hhs.purdue.edu/directory/nilupa-gunaratna/">Nilupa S Gunaratna</a>.</p>
+            
+            <p>Prior to Purdue, I served as an <a href="https://www.nstu.edu.bd/faculty-member.php?faculty=susmita-ghosh-ega249">Assistant Professor</a> <em>(currently on sabbatical)</em> at Noakhali Science and Technology University (NSTU) in Bangladesh.</p>
+
+            <h3>Contact:</h3>
+
+            <p>
+                <strong><em>Ph.D. Candidate</em></strong><br>
+                Department of Nutrition Science<br>
+                Purdue University<br>
+                West Lafayette, IN<br>
+                <a href="mailto:ghosh81@purdue.edu">ghosh81@purdue.edu</a><br>
+                <a href="https://hhs.purdue.edu/directory/susmita-ghosh/">HHS webpage</a>
+            </p>
+
+            <p>
+                <strong><em>Assistant Professor</em></strong> <em>(on sabbatical)</em><br>
+                Department of Food Technology and Nutrition Science<br>
+                Noakhali Science and Technology University (NSTU)<br>
+                Sonapur Road, Noakhali 3814, Bangladesh<br>
+                <a href="mailto:susmita.ftns@nstu.edu.bd">susmita.ftns@nstu.edu.bd</a><br>
+                <a href="https://www.nstu.edu.bd/faculty-member.php?faculty=susmita-ghosh-ega249">NSTU Faculty Profile</a>
+            </p>
+
+            <p>
+                <a href="https://scholar.google.com/citations?user=ceZ46vgAAAAJ&hl=en">Google Scholar</a><br>
+                <a href="https://www.linkedin.com/in/susmitaghosh21/">LinkedIn</a>
+            </p>
+
+        </div>
+    </main>
 
 </body>
 </html>
