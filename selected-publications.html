@@ -6,7 +6,6 @@
     <title>Selected Publications | Susmita Ghosh</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 
@@ -33,26 +32,20 @@
 
     <main class="container">
         <h2>Selected Publications</h2>
-        <div id="markdown-content">Loading selected publications...</div>
-    </main>
+        <div id="markdown-content">
+            
+            <p>Shively, G., Ambikapathi, R., Eddens, K., <strong>Ghosh, S.</strong>, et al. (2024). Demand-driven capacity building for public health nutrition research in Lao PDR. <a href="https://pubmed.ncbi.nlm.nih.gov/39294838/">Global Health Research and Policy, 9(1), 36.</a></p>
 
-    <script>
-        // This script fetches the SPECIFIC markdown file for this page
-        fetch('selected-publications.md')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error("HTTP error " + response.status);
-                }
-                return response.text();
-            })
-            .then(text => {
-                document.getElementById('markdown-content').innerHTML = marked.parse(text);
-            })
-            .catch(error => {
-                document.getElementById('markdown-content').innerHTML = 
-                "<p>Error loading publications. Please ensure 'selected-publications.md' exists.</p>";
-            });
-    </script>
+            <p>O'Malley, S. F., Ambikapathi, R., <strong>Ghosh, S.</strong>, et al. (2024). Contribution of Food from Market Purchases and Home Production to Child Nutrient Intake. <a href="https://pubmed.ncbi.nlm.nih.gov/38608871/">The Journal of Nutrition, 154(6), 1907-1916.</a></p>
+
+            <p><strong>Ghosh, S.</strong>, Kabir, M., Islam, M., et al. (2021). Association between water, sanitation, and hygiene practices (WASH) and anthropometric nutritional status among selected under-five children in rural Noakhali, Bangladesh. <a href="https://iwaponline.com/washdev/article/11/1/141/79187/Association-between-water-sanitation-and-hygiene">Journal of Water, Sanitation and Hygiene for Development, 11(1), 141-151.</a></p>
+
+            <p><strong>Ghosh, S.</strong>, Kabir, M. R., Alam, M. R., et al. (2020). Balanced diet related knowledge, attitude and practices (KAP) among adolescent school girls in Noakhali district, Bangladesh: a cross sectional study. <a href="https://www.degruyterbrill.com/document/doi/10.1515/ijamh-2020-0106/html">International Journal of Adolescent Medicine and Health.</a></p>
+
+            <p>Kabir, M. R., <strong>Ghosh, S.</strong>, Al Mamun, M. A., et al. (2020). Factors associated with antenatal and health facility delivery care in selected areas of Subornochor upazila, Noakhali, Bangladesh. <a href="https://www.sciencedirect.com/science/article/pii/S2213398420300750">Clinical Epidemiology and Global Health, 8(3), 983-988.</a></p>
+
+        </div>
+    </main>
 
 </body>
 </html>
